@@ -38,5 +38,5 @@ This project is licensed under the [MIT License](https://opensource.org/licenses
 
 ## Acknowledgments
 
-- Special thanks to [Your Name] for the research and content.
+- Special thanks TBD.
 - Bootstrap and jQuery libraries used for styling and interactivity.
