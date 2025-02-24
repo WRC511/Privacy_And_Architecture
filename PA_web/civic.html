@@ -1,0 +1,26 @@
+{% extends "layout.html" %}
+
+{% block title %}Civic Buildings - Privacy & Architecture{% endblock %}
+
+{% block content %}
+<h2>Civic Buildings</h2>
+<div class="image-gallery">
+    <div class="gallery-item">
+        <img src="placeholder-civic1.jpg" alt="Civic Building 1" class="image-border">
+        <button class="btn btn-primary description-btn">Description</button>
+        <div class="info-box">
+            <p>Details about civic building example 1 and its approach to privacy.</p>
+            <button class="btn btn-secondary close-btn">Close</button>
+        </div>
+    </div>
+    <div class="gallery-item">
+        <img src="placeholder-civic2.jpg" alt="Civic Building 2" class="image-border">
+        <button class="btn btn-primary description-btn">Description</button>
+        <div class="info-box">
+            <p>Information on civic building example 2 and its privacy considerations.</p>
+            <button class="btn btn-secondary close-btn">Close</button>
+        </div>
+    </div>
+    <!-- Add more gallery items as needed -->
+</div>
+{% endblock %}

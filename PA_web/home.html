@@ -1,0 +1,32 @@
+{% extends "layout.html" %}
+
+{% block title %}Home - Privacy & Architecture{% endblock %}
+
+{% block content %}
+<h2>Welcome to Privacy & Architecture</h2>
+<div class="image-gallery">
+    <div class="gallery-item">
+        <img src="path/to/home-image1.jpg" alt="Home Image 1" class="image-border">
+        <button class="btn btn-primary description-btn">Description</button>
+        <div class="info-box">
+            <p>This is a brief description of the first home image and its relevance to privacy in architecture.</p>
+            <button class="btn btn-secondary close-btn">Close</button>
+        </div>
+    </div>
+    <div class="gallery-item">
+        <img src="path/to/home-image2.jpg" alt="Home Image 2" class="image-border">
+        <button class="btn btn-primary description-btn">Description</button>
+        <div class="info-box">
+            <p>Here's an explanation of the second home image and how it relates to our research on privacy and architecture.</p>
+            <button class="btn btn-secondary close-btn">Close</button>
+        </div>
+    </div>
+    <!-- Add more gallery items as needed -->
+</div>
+{% endblock %}
+
+{% block extra_js %}
+<script>
+    // Any additional JavaScript specific to the home page can go here
+</script>
+{% endblock %}
